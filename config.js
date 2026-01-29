@@ -41,8 +41,8 @@ loveMessages: {
 },
 
 celebration: {
-    title: "TAK?! 😍 To najlepsza odpowiedź na świecie! 🎉💖",
-    message: "Teraz należy Ci się prezent: duzo tuli i milion buziakow 😘",
+    title: "TAK?! 😍 Super i tak innego wyboru nie miałaś 🎉💖",
+    message: "Teraz dostaniesz ode mnie milion tuli i buziakow 😘",
     emojis: "🎁💘🤗💋❤️💕✨"
 },
 
@@ -60,7 +60,7 @@ colors: {
     // Animation settings
     // Adjust these if you want faster/slower animations
     animations: {
-        floatDuration: "15s",           // How long it takes hearts to float up (10-20s recommended)
+        floatDuration: "5s",           // How long it takes hearts to float up (10-20s recommended)
         floatDistance: "50px",          // How far hearts move sideways (30-70px recommended)
         bounceSpeed: "0.5s",            // Speed of bouncing animations (0.3-0.7s recommended)
         heartExplosionSize: 1.5         // Size of heart explosion effect (1.2-2.0 recommended)
