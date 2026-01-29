@@ -3,66 +3,60 @@
 // ============================================
 
 const CONFIG = {
-    // Your Valentine's name that will appear in the title
-    // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Jade",
+    valentineName: "Julus",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "Will You Be My Valentine? 💝",
+    pageTitle: "Zostaniesz moja walentynka? 💕",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis
+        hearts: ['❤️', '💖', '💝', '💗', '💓','💐','💟','💌','💏'],  // Heart emojis
         bears: ['🧸', '🐻']                       // Cute bear emojis
     },
 
-    // Questions and answers
-    // Customize each question and its possible responses
-    questions: {
-        first: {
-            text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
-        },
-        second: {
-            text: "How much do you love me?",                          // For the love meter
-            startText: "This much!",                                   // Text before the percentage
-            nextBtn: "Next ❤️"                                         // Text for the next button
-        },
-        third: {
-            text: "Will you be my Valentine on February 14th, 2025? 🌹", // The big question!
-            yesBtn: "Yes!",                                             // Text for "Yes" button
-            noBtn: "No"                                                 // Text for "No" button
-        }
+questions: {
+    first: {
+        text: "Czy mnie kochasz?",
+        yesBtn: "TAK ❤️",
+        noBtn: "Tak 😏",
+        secretAnswer: "Kocham cie najmocniej na swiecie 💖"
     },
+    second: {
+        text: "Jak bardzo mnie kochasz?",
+        startText: "Aż tak bardzo!",
+        nextBtn: "Dalej 💕"
+    },
+    third: {
+        text: "Czy zostaniesz moją Walentynką 14 lutego 2026? 🌹",
+        yesBtn: "Oczywiście! 💘",
+        noBtn: "Muszę się zastanowić 😌"
+    }
+},
 
-    // Love meter messages
-    // They show up depending on how far they slide the meter
-    loveMessages: {
-        extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "To infinity and beyond! 🚀💝",              // Shows when they go past 1000%
-        normal: "And beyond! 🥰"                           // Shows when they go past 100%
-    },
+loveMessages: {
+    extreme: "COOO?! To już kosmiczny poziom miłości 🚀💖🔥",
+    high: "Bez końca i jeszcze dalej 💕✨",
+    normal: "Więcej niż wystarczająco 🥰"
+},
 
-    // Messages that appear after they say "Yes!"
-    celebration: {
-        title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
-        message: "Now come get your gift, a big warm hug and a huge kiss!",
-        emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
-    },
+celebration: {
+    title: "TAK?! 😍 To najlepsza odpowiedź na świecie! 🎉💖",
+    message: "Teraz należy Ci się prezent: duzo tuli i milion buziakow 😘",
+    emojis: "🎁💘🤗💋❤️💕✨"
+},
+
 
     // Color scheme for the website
     // Use https://colorhunt.co or https://coolors.co to find beautiful color combinations
-    colors: {
-        backgroundStart: "#ffafbd",      // Gradient start (try pastel colors for a soft look)
-        backgroundEnd: "#ffc3a0",        // Gradient end (should complement backgroundStart)
-        buttonBackground: "#ff6b6b",     // Button color (should stand out against the background)
-        buttonHover: "#ff8787",          // Button hover color (slightly lighter than buttonBackground)
-        textColor: "#ff4757"             // Text color (make sure it's readable!)
-    },
+colors: {
+    backgroundStart: "#ffdde1",   // bardzo jasny róż (romantic vibe)
+    backgroundEnd: "#ee9ca7",     // ciepły róż / rose-gold
+    buttonBackground: "#e63946",  // głęboka walentynkowa czerwień ❤️
+    buttonHover: "#ff5d6c",       // jaśniejsza, „cute” czerwień na hover
+    textColor: "#b11226"          // ciemna wiśnia – czytelna i elegancka
+},
 
     // Animation settings
     // Adjust these if you want faster/slower animations
@@ -76,7 +70,7 @@ const CONFIG = {
     // Background Music (Optional)
     // Add your own music URL after getting proper licenses
     music: {
-        enabled: true,                     // Music feature is enabled
+        enabled: false,                     // Music feature is enabled
         autoplay: true,                    // Try to autoplay (note: some browsers may block this)
         musicUrl: "https://res.cloudinary.com/dncywqfpb/video/upload/v1738399057/music_qrhjvy.mp3", // Music streaming URL
         startText: "🎵 Play Music",        // Button text to start music
