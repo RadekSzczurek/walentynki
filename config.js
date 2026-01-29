@@ -20,8 +20,7 @@ questions: {
     first: {
         text: "Czy mnie kochasz?",
         yesBtn: "TAK ❤️",
-        noBtn: "Tak 😏",
-        secretAnswer: "Kocham cie najmocniej na swiecie 💖"
+        noBtn: "Kocham cie najmocniej na swiecie 💖",
     },
     second: {
         text: "Jak bardzo mnie kochasz?",
