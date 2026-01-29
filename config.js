@@ -42,7 +42,7 @@ loveMessages: {
 
 celebration: {
     title: "TAK?! 😍 Super i tak innego wyboru nie miałaś 🎉💖",
-    message: "Teraz dostaniesz ode mnie milion tuli i buziakow 😘",
+    message: "Teraz dostaniesz ode mnie milion tuli i buzi 😘",
     emojis: "🎁💘🤗💋❤️💕✨"
 },
 
