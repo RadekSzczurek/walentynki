@@ -3,7 +3,7 @@
 // ============================================
 
 const CONFIG = {
-    valentineName: "Julus",
+    valentineName: "Juluś",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
@@ -29,8 +29,8 @@ questions: {
     },
     third: {
         text: "Czy zostaniesz moją Walentynką 14 lutego 2026? 🌹",
-        yesBtn: "Oczywiście! 💘",
-        noBtn: "Muszę się zastanowić 😌"
+        yesBtn: "Oczywiście Radziu:3! 💘",
+        noBtn: "Nie, spierdalaj 😌"
     }
 },
 
